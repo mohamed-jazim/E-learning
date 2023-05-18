@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kazimasum.videostreaming">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".us3_cst_203"
+            android:exported="false" />
+        <activity
+            android:name=".s3_cst_203"
+            android:exported="false" />
+        <activity
+            android:name=".us3_sct_201"
+            android:exported="false" />
+        <activity
+            android:name=".s3_cst_201"
+            android:exported="false" />
+        <activity
+            android:name=".us3_mat_200"
+            android:exported="false" />
+        <activity
+            android:name=".s3_mat_200"
+            android:exported="false" />
+        <activity
+            android:name=".umat_102"
+            android:exported="false" />
+        <activity
+            android:name=".uhut_102"
+            android:exported="false" />
+        <activity
+            android:name=".uest_102"
+            android:exported="false" />
+        <activity
+            android:name=".uest_110"
+            android:exported="false" />
+        <activity
+            android:name=".mat_102"
+            android:exported="false" />
+        <activity
+            android:name=".hut_102"
+            android:exported="false" />
+        <activity
+            android:name=".est_102"
+            android:exported="false" />
+        <activity
+            android:name=".est_110"
+            android:exported="false" />
+        <activity
+            android:name=".ucyt_100"
+            android:exported="false" />
+        <activity
+            android:name=".cyt_100"
+            android:exported="false" />
+        <activity
+            android:name=".uest_100"
+            android:exported="false" />
+        <activity
+            android:name=".vest_100"
+            android:exported="false" />
+        <activity
+            android:name=".cse_sem_four"
+            android:exported="false" />
+        <activity
+            android:name=".cse_sem_three"
+            android:exported="false" />
+        <activity
+            android:name=".cse_sem_one_sub"
+            android:exported="false" />
+        <activity
+            android:name=".ucse2"
+            android:exported="false" />
+        <activity
+            android:name=".vcse2"
+            android:exported="false" />
+        <activity
+            android:name=".tlog"
+            android:exported="false" />
+        <activity
+            android:name=".cs1"
+            android:exported="false" />
+        <activity
+            android:name=".mech"
+            android:exported="false" />
+        <activity
+            android:name=".ece"
+            android:exported="false" />
+        <activity
+            android:name=".eee"
+            android:exported="false" />
+        <activity
+            android:name=".civil"
+            android:exported="false" />
+        <activity
+            android:name=".sel_sem"
+            android:exported="false" />
+        <activity
+            android:name=".sel_branch"
+            android:exported="false" />
+        <activity android:name=".commentpanel" />
+        <activity android:name=".update_profile" />
+        <activity android:name=".actpdfmain" />
+        <activity android:name=".addvideo" />
+        <activity android:name=".dashboard" />
+        <activity android:name=".login" />
+        <activity android:name=".uploadfile" />
+        <activity android:name=".viewpdf" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".welcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

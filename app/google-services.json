@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "662243491797",
+    "firebase_url": "https://nisa-c55b5-default-rtdb.firebaseio.com",
+    "project_id": "nisa-c55b5",
+    "storage_bucket": "nisa-c55b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662243491797:android:0ff2567fc86aa14d1a875c",
+        "android_client_info": {
+          "package_name": "com.kazimasum.videostreaming"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "662243491797-cnh1vgrebgtutdnjaaf5eegqq2e0h2n8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkrPEbV64YyskoRLK_NADLR3pWMAe0_FU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "662243491797-cnh1vgrebgtutdnjaaf5eegqq2e0h2n8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

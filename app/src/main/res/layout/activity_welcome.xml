@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/bgcolor"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="417dp"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        android:src="@drawable/learn" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/bottom_gradient"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/latobold"
+            android:text="@string/gettingstart"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="253dp"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/latobold"
+            android:text="@string/gettingsubtext"
+            android:textColor="#83F1F1F1"
+            android:textSize="17dp" />
+
+        <LinearLayout
+            android:id="@+id/getstartedbtn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/btn_style"
+            android:elevation="30dp">
+
+            <TextView
+                android:id="@+id/gtt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/latobold"
+                android:gravity="center"
+                android:text="Get Started"
+                android:textColor="#fff"
+                android:textSize="30dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
