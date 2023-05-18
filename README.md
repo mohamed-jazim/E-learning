@@ -6,10 +6,10 @@ To run the project you shoud download the project in zip format or clone the pro
 after then you must open android studio and import the project.
 if you have downloaded it in zip format extract it.
 
-#zip
+# zip
 if using zip file   :  File -> open -> open the downloaded folder 
 
-#cloned
+# cloned
 if you are cloning the repo   :  File -> open -> open project form version control
 
 now you have done
